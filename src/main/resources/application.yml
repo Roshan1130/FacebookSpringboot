@@ -1,0 +1,27 @@
+server:
+    port: 8192
+user:
+    name: Roshan
+    password: roshan
+    xyz:
+       abc: random
+notification:
+    text:
+       message: hello text from yml file
+       from: +371262882
+    email:
+       message: hello email from
+       from: roshan@gmail.com
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservice
+    username: root
+    password: 1234    
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect
+
